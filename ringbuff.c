@@ -15,7 +15,7 @@ struct ring_buff * fifo_init(void)
 	struct ring_buff * p = NULL;	
 	p = (struct ring_buff *)malloc(sizeof(struct ring_buff));	
 	if(p == NULL)	
-	{	   
+	{
 		printf("fifo_init malloc error\n");	   
 		return NULL;	
 	}	
